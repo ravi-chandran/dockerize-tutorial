@@ -26,7 +26,6 @@ RUN apt-get update \
 USER ${USERNAME}
 
 # set up volumes
-VOLUME /home/${USERNAME}/.ssh
 VOLUME /scripts
 VOLUME /workdir
 

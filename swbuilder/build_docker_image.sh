@@ -1,4 +1,4 @@
-#!usr/bin/env bash
+#!/usr/bin/env bash
 # maintainer: Ravi Chandran
 
 time docker image build                 \
