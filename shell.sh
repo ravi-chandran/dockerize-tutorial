@@ -5,5 +5,5 @@ docker container run                                       \
     --volume $(pwd)/swbuilder/scripts:/scripts             \
     --volume $1:/workdir                                   \
     --user $(id -u ${USER}):$(id -g ${USER})               \
-    --rm -it --name ssh_shell_swbuilder swbuilder:v1       \
+    --rm -it --name shell_swbuilder swbuilder:v1       \
     shell
