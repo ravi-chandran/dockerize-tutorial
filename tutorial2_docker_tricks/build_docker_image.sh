@@ -21,7 +21,7 @@ time docker image build                 \
     --build-arg USERNAME=${USER}        \
     --build-arg ANACONDA=$ANACONDA      \
     --file install_anaconda.dockerfile  \
-    --tag anaconda_ubuntu1804:v1 .   \
+    --tag anaconda_ubuntu1804:v1 .      \
     |& tee $BASH_SOURCE.log
 
 # Stop HTTP server
